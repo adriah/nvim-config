@@ -50,3 +50,11 @@ vim.keymap.set("n", "<leader><leader>", function()
     vim.cmd("so")
 end)
 
+vim.keymap.set("n", "<Leader>h", "<cmd>split<CR>")
+vim.keymap.set("n", "<Leader>v", "<cmd>vsplit<CR>")
+
+vim.keymap.set("n", "<Tab>", "gt")
+vim.keymap.set("n", "<S-Tab>", "gT")
+vim.keymap.set("n", "<S-t>", "<cmd>tabnew<CR>")
+vim.keymap.set("n", "<leader>.", "<cmd>lcd %:p:h<CR>")
+

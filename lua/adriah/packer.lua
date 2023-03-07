@@ -23,6 +23,9 @@ return require('packer').startup(function(use)
 	use('theprimeagen/harpoon')
 	use('mbbill/undotree')
 	use('tpope/vim-fugitive')
+    use('folke/zen-mode.nvim')
+    use('xolox/vim-session')
+    use('xolox/vim-misc')
 	use {
 		'VonHeikemen/lsp-zero.nvim',
 		branch = 'v1.x',

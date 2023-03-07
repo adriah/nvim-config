@@ -179,6 +179,21 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/adriah/.local/share/nvim/site/pack/packer/start/vim-fugitive",
     url = "https://github.com/tpope/vim-fugitive"
+  },
+  ["vim-misc"] = {
+    loaded = true,
+    path = "/home/adriah/.local/share/nvim/site/pack/packer/start/vim-misc",
+    url = "https://github.com/xolox/vim-misc"
+  },
+  ["vim-session"] = {
+    loaded = true,
+    path = "/home/adriah/.local/share/nvim/site/pack/packer/start/vim-session",
+    url = "https://github.com/xolox/vim-session"
+  },
+  ["zen-mode.nvim"] = {
+    loaded = true,
+    path = "/home/adriah/.local/share/nvim/site/pack/packer/start/zen-mode.nvim",
+    url = "https://github.com/folke/zen-mode.nvim"
   }
 }
 
