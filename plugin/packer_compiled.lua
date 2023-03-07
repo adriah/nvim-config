@@ -170,6 +170,11 @@ _G.packer_plugins = {
     path = "/home/adriah/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
   },
+  ["twilight.nvim"] = {
+    loaded = true,
+    path = "/home/adriah/.local/share/nvim/site/pack/packer/start/twilight.nvim",
+    url = "https://github.com/folke/twilight.nvim"
+  },
   undotree = {
     loaded = true,
     path = "/home/adriah/.local/share/nvim/site/pack/packer/start/undotree",

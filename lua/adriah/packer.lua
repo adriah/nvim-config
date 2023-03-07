@@ -24,6 +24,7 @@ return require('packer').startup(function(use)
 	use('mbbill/undotree')
 	use('tpope/vim-fugitive')
     use('folke/zen-mode.nvim')
+    use('folke/twilight.nvim')
     use('xolox/vim-session')
     use('xolox/vim-misc')
 	use {
