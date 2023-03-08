@@ -136,3 +136,4 @@ set relativenumber
 set termguicolors
 set scrolloff=8
 set colorcolumn=80
+set undodir=os.getenv("HOME") .. "/.vim/undodir"
