@@ -15,6 +15,8 @@ return require('packer').startup(function(use)
     use('xolox/vim-session')
     use('xolox/vim-misc')
     use('ThePrimeagen/git-worktree.nvim')
+    use('tpope/vim-rhubarb')
+    use('tpope/fugitive-gitlab.vim')
 
     use {
         'nvim-telescope/telescope.nvim', tag = '0.1.1',
