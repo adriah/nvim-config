@@ -1,4 +1,3 @@
-
 vim.g.mapleader = " "
 vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)
 
@@ -50,8 +49,8 @@ vim.keymap.set("n", "<leader><leader>", function()
     vim.cmd("so")
 end)
 
-vim.keymap.set("n", "<Leader>h", "<cmd>split<CR>")
-vim.keymap.set("n", "<Leader>v", "<cmd>vsplit<CR>")
+--vim.keymap.set("n", "<Leader>h", "<cmd>split<CR>")
+--vim.keymap.set("n", "<Leader>v", "<cmd>vsplit<CR>")
 
 vim.keymap.set("n", "<Tab>", "gt")
 vim.keymap.set("n", "<S-Tab>", "gT")
