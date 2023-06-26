@@ -17,6 +17,7 @@ return require('packer').startup(function(use)
     use('ThePrimeagen/git-worktree.nvim')
     use('tpope/vim-rhubarb')
     use('tpope/fugitive-gitlab.vim')
+    use('m4xshen/autoclose.nvim')
     use { 'mhartington/formatter.nvim' }
 
     use {
